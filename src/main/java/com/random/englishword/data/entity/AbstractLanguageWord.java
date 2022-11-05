@@ -34,4 +34,8 @@ public class AbstractLanguageWord<T> implements Word<T> {
     public T getLastWord() {
         return words.get(words.size()-1);
     }
+
+    public List<T> getWords() {
+        return words;
+    }
 }
